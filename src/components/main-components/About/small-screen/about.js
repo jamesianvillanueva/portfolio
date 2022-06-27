@@ -11,7 +11,7 @@ const SmallScreen = () => {
                     About Me
                 </Title>
                 <Name>
-                    I'm James Ian Villanueva
+                    I&apos;m James Ian Villanueva
                 </Name>
                 <Section>
                     <Main>

@@ -15,7 +15,7 @@ const SmallScreen = () => {
                         return (
                             <Boxes key={i}>
                                  <ImageContainer>
-                                    <Image src={key.image} width='100' height='100' className='block rounded-full'/>    
+                                    <Image src={key.image} width='100' height='100' className='block rounded-full' alt=""/>    
                                 </ImageContainer>
                                 <Name>{key.name}</Name>    
                             </Boxes>
