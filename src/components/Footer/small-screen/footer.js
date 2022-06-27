@@ -8,7 +8,7 @@ const SmallScreen = () =>{
             <Container>
                 <EmailContainer>
                     <Text>
-                        Email • jamesvillanueva1201@gmail.com
+                        Email me • jamesvillanueva1201@gmail.com
                     </Text>
                 </EmailContainer>
                 <SocialIcons href="https://gitlab.com/JamesIan.Villanueva">
