@@ -23,8 +23,8 @@ const Header = () => {
                 <Div2>
                 <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-10 pt-10 bg-black':'top-[-490px]'}`}>
                 {   
-                    ScrollLinks.map((link) => (                            
-                        <Link 
+                    ScrollLinks.map((link, i) => (                            
+                        <Link key={i}
                             className='md:ml-8 md:my-0 my-7'
                             smooth={true}
                             to={link.link}
