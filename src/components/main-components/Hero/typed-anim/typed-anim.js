@@ -21,7 +21,7 @@ componentWillUnmount() {
     return (
       <>
         <span
-            className="text-white text-3xl"
+            className="text-white text-3xl supersmall:text-base"
             style={{ whiteSpace: "pre" }}
             ref={(el) => {
             this.el = el;

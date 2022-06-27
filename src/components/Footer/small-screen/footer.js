@@ -11,6 +11,8 @@ const SmallScreen = () =>{
                         Email me • jamesvillanueva1201@gmail.com
                     </Text>
                 </EmailContainer>
+               
+               <Container>
                 <SocialIcons href="https://gitlab.com/JamesIan.Villanueva">
                     <AiOutlineGitlab size="2rem" color='white'/>
                 </SocialIcons>
@@ -21,7 +23,7 @@ const SmallScreen = () =>{
                 <SocialIcons href="https://www.linkedin.com/in/jamesvillanueva1201/">
                     <AiFillLinkedin size="2rem" color='white'/>
                 </SocialIcons>
-
+                </Container>
             </Container>
         </Wrapper>
     )

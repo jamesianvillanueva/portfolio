@@ -8,7 +8,7 @@ export const Section = tw.div`bg-blue-500 m-auto flex flex-col`
 
 export const Center = tw.div``
 
-export const Text = tw.div`text-base font-bold text-white m-auto font-light`
+export const Text = tw.div`text-base font-bold text-white m-auto font-light supersmall:text-sm`
 
 export const TypeAnim = tw.h3`inline-block m-auto`
 

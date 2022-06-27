@@ -9,4 +9,4 @@ export const EmailContainer = tw.div`w-full`
 
 export const Text = tw.h3`pt-2 text-white text-xs`
 
-export const SocialIcons = tw.a`px-3 block`
+export const SocialIcons = tw.a`px-3 hidden sm:block`
