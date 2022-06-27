@@ -7,11 +7,11 @@ import ShowParticles from "./particles/particles"
 const Hero = () => {
 
     return (
-        <>
+        <div name="hero">
             <ShowParticles/>   
             <SmallScreen />
             <MediumScreen />
-        </>
+        </div>
     )
 }
 

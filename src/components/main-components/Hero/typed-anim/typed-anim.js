@@ -22,7 +22,7 @@ class TypedAnim extends React.Component {
       <>
         <span
             className="text-white text-3xl supersmall:text-base"
-            style={{ whiteSpace: "pre", fontSize: "1.5rem" }}
+            style={{ whiteSpace: "pre", fontSize: "1.2rem" }}
             ref={(el) => {
             this.el = el;
           }}

@@ -13,3 +13,22 @@ export const Links = [
         name: 'LinkedIn'
     },
 ]
+
+export const ScrollLinks = [
+    {
+        link: 'hero',
+        name: 'Hero'
+    },
+    {
+        link: 'about',
+        name: 'About'
+    },
+    {
+        link: 'skill',
+        name: 'Skill'
+    },
+    {
+        link: 'achievement',
+        name: 'Achievement'
+    },
+]

@@ -4,10 +4,10 @@ import SmallScreen from "./small-screen/achievements"
 
 const Achievements = () => {
     return (
-        <>
+        <div name="achievement">
             <SmallScreen />
             <MediumScreen />
-        </>
+        </div>
     )
 }
 

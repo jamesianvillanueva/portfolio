@@ -7,7 +7,7 @@ export const Container = tw.div`md:flex items-center bg-black py-4 md:px-10 px-7
 
 export const Div1 = tw.div`flex items-center w-full`
 
-export const Div2 = tw.div`md:hidden`
+export const Div2 = tw.div`block cursor-pointer`
 
 export const Div3 = tw.div`grid grid-cols-2 md:block hidden`
 

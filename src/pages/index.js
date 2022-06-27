@@ -8,9 +8,10 @@ import Layout from '../layout/layout'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  
   return (
     <Layout>
-      <Hero />
+      <Hero/>
       <About />
       <Skills />
       <Achievements />
