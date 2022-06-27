@@ -1,6 +1,6 @@
 import tw from "twin.macro";
 
-export const Wrapper = tw.div`md:block hidden m-auto w-9/12`
+export const Wrapper = tw.div`md:block hidden m-auto w-9/12 px-10`
 
 export const Container = tw.div`relative flex flex-col m-5 py-10`
 

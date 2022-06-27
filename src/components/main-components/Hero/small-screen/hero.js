@@ -12,7 +12,7 @@ const SmallScreen = () => {
                     Welcome!
                 </Text>
                 <TypeAnim>
-                    <TypedAnim  strings={[
+                    <TypedAnim strings={[
                         'Im <strong>Software Engineer</strong>',
                         'Im <strong>James Ian Villanueva</strong>',
                     ]}/>
@@ -20,7 +20,6 @@ const SmallScreen = () => {
                 <Text>
                     Specialized in Server-Side Development
                 </Text>
-                   
             </Container>
         </Wrapper>
     )

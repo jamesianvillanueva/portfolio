@@ -12,4 +12,4 @@ export const Boxes = tw.div`m-5 shadow-md border border-gray-800 rounded-lg`
 
 export const ImageContainer = tw.div`m-auto flex justify-center p-5`
 
-export const Name = tw.h4`text-white text-center mb-3`
+export const Name = tw.h4`text-white text-center mb-3 text-sm`

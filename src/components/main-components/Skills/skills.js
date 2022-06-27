@@ -6,7 +6,7 @@ const Skills = () => {
     return(
         <>
             <SmallScreen />
-            <MediumScreen />
+            <MediumScreen />    
         </>
     )
 }
