@@ -4,10 +4,10 @@ import SmallScreen from "./small-screen/skills"
 
 const Skills = () => {
     return(
-        <>
+        <div name="skill">
             <SmallScreen />
-            <MediumScreen />
-        </>
+            <MediumScreen />    
+        </div>
     )
 }
 

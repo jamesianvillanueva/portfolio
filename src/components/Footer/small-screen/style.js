@@ -1,7 +1,7 @@
 import tw from "twin.macro";
 
 
-export const Wrapper = tw.div`block bg-black py-5 min-w-max m-auto`
+export const Wrapper = tw.div`block bg-black py-5 m-auto`
 
 export const Container = tw.div`px-7 flex flex-row`
 
