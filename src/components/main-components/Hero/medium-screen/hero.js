@@ -14,7 +14,7 @@ const MediumScreen = () => {
                 </Text>
                 <TypeAnim>
                     <TypedAnim strings={[
-                        'Im <strong>Software Engineer</strong>',
+                        'Im <strong>a Software Engineer</strong>',
                         'Im <strong>James Ian Villanueva</strong>',
                     ]}/>
                 </TypeAnim>  
