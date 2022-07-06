@@ -34,10 +34,10 @@ const MediumScreen = () => {
                                     </Tools>
                                     <div className="flex flex-row m-auto">
                                         <Button>
-                                            <a href={key.link} target="_blank">View Me</a>
+                                            <a href={key.link} target="_blank" rel="noreferrer">View Me</a>
                                         </Button>
                                         <Button>
-                                           <a href={key.gitlink} target="_blank">Github</a>
+                                           <a href={key.gitlink} target="_blank" rel="noreferrer">Github</a>
                                         </Button>
                                     </div>
                                 </GridContainer>
