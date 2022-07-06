@@ -4,7 +4,7 @@ import { Wrapper, Container, ProjectList, Title, Box, ImageContainer, GridContai
 import Image from 'next/image'
 
 
-const SmallScreen = () => {
+const MediumScreen = () => {
     return(
         <Wrapper>
             <Container>
@@ -32,7 +32,7 @@ const SmallScreen = () => {
                                         })
                                     }
                                     </Tools>
-                                    <div className="flex flex-col m-auto xs:flex-row sm:flex-col">
+                                    <div className="flex flex-row m-auto">
                                         <Button>
                                             <a href={key.link} target="_blank">View Me</a>
                                         </Button>
@@ -51,4 +51,4 @@ const SmallScreen = () => {
     )
 }
 
-export default SmallScreen
+export default MediumScreen

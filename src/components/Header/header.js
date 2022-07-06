@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 import { Link } from 'react-scroll/modules';
 
-import { Links, ScrollLinks } from './Links/links';
+import { ScrollLinks } from './Links/links';
 
 import 'twin.macro'
 

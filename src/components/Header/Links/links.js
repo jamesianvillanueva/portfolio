@@ -31,4 +31,8 @@ export const ScrollLinks = [
         link: 'achievement',
         name: 'Achievement'
     },
+    {
+        link: 'project',
+        name: 'Projects'
+    },
 ]
