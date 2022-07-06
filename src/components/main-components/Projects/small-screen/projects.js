@@ -17,7 +17,7 @@ const SmallScreen = () => {
                         return(
                             <Box key={i}>
                                 <ImageContainer>
-                                    <Image src={key.image} width='300' height='250' layout="responsive"/>
+                                    <Image src={key.image} width='300' height='250' layout="responsive" alt=""/>
                                 </ImageContainer>
                                 <div className="text-base text-center text-white font-medium m-3">
                                 Static Web Page
@@ -34,10 +34,10 @@ const SmallScreen = () => {
                                     </Tools>
                                     <div className="flex flex-col m-auto xs:flex-row sm:flex-col">
                                         <Button>
-                                            <a href={key.link} target="_blank">View Me</a>
+                                            <a href={key.link} rel="noopener" target="_blank">View Me</a>
                                         </Button>
                                         <Button>
-                                           <a href={key.gitlink} target="_blank">Github</a>
+                                           <a href={key.gitlink} rel="noopener" target="_blank">Github</a>
                                         </Button>
                                     </div>
                                 </GridContainer>

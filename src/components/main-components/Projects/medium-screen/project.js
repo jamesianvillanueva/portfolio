@@ -17,7 +17,7 @@ const MediumScreen = () => {
                         return(
                             <Box key={i}>
                                 <ImageContainer>
-                                    <Image src={key.image} width='300' height='250' layout="responsive"/>
+                                    <Image src={key.image} width='300' height='250' layout="responsive" alt=""/> 
                                 </ImageContainer>
                                 <div className="text-base text-center text-white font-medium m-3">
                                 Static Web Page
